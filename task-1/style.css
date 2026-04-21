@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.8;
+}
+
+hr {
+    height: 2px;
+    background-color: rgb(0, 115, 255);
+}
+
+#main-title {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(0, 115, 255);
+    font-weight: bold;
+}
+
+.sub-title {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.text {
+    font-size: 16px;
+    color : rgb(0, 0, 0);
+}
+
+.highlight {
+    background-color: yellow;
+    padding: 2px 2px;
+}
+
+.list {
+    font-size: 16px;
+    list-style-image: url("./terminal-line.png");
+}
+
+.content {
+    width: fit-content;
+    margin: 0 auto;
+}
