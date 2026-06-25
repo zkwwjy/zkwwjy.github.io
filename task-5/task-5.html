@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="punregister" class="pun">
+    <div id="brdheader" class="block">
+      <div class="box">
+        <div id="brdtitle" class="inbox">
+          <h1><a href="#">evo<span>life</span></a></h1>
+          <p class="forumdesc">register an account</p>
+        </div>
+        <div id="brdmenu" class="inbox">
+          <ul>
+            <li id="navindex"><a href="#">Index</a></li>
+            <li id="navuserlist"><a href="#">User list</a></li>
+            <li id="navsearch"><a href="#">Search</a></li>
+            <li id="navregister"><a href="#">Register</a></li>
+            <li id="navlogin"><a href="#">Login</a></li>
+          </ul>
+        </div>
+        <div id="brdwelcome" class="inbox">
+          <p class="conl">You are not logged in.</p>
+          <p class="conr">Please register below.</p>
+          <div class="clearer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="linkst">
+      <div class="inbox">
+        <ul class="crumbs">
+          <li><a href="#">Index</a></li>
+          <li><span> / </span><strong>Register</strong></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="blockform">
+      <h2><span>Register</span></h2>
+      <div class="box">
+        <form id="registerForm" method="post" action="#">
+          <div class="forminfo">
+            <h3>Important information</h3>
+            <p>Fields marked below are required. This is a static demo form.</p>
+          </div>
+
+          <div class="inform">
+            <fieldset>
+              <legend>Required information</legend>
+              <div class="infldset">
+                <label class="required" for="username"><strong>Username <span>(required)</span></strong><br>
+                  <input id="username" class="longinput" type="text" name="username" autocomplete="username" required><br>
+                </label>
+
+                <label class="required" for="email"><strong>Email <span>(required)</span></strong><br>
+                  <input id="email" class="longinput" type="email" name="email" autocomplete="email" required><br>
+                </label>
+
+                <label class="required" for="password"><strong>Password <span>(required)</span></strong><br>
+                  <input id="password" class="longinput" type="password" name="password" autocomplete="new-password" required><br>
+                </label>
+
+                <label class="required" for="confirmPassword"><strong>Confirm password <span>(required)</span></strong><br>
+                  <input id="confirmPassword" class="longinput" type="password" name="confirmPassword" autocomplete="new-password" required><br>
+                </label>
+              </div>
+            </fieldset>
+          </div>
+
+          <p class="buttons">
+            <input type="submit" name="register" value="Register">
+            <input type="reset" value="Reset">
+          </p>
+        </form>
+      </div>
+    </div>
+
+    <div class="linksb">
+      <div class="inbox">
+        <ul class="crumbs">
+          <li><a href="#">Index</a></li>
+          <li><span> / </span><strong>Register</strong></li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="brdfooter" class="block">
+      <h2><span>Board footer</span></h2>
+      <div class="box">
+        <div class="inbox">
+          <p class="conl">Powered by PunBB</p>
+          <p class="conr">evolife</p>
+          <div class="clearer"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
